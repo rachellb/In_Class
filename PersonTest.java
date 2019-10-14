@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class PersonTest {
@@ -50,7 +51,7 @@ public class PersonTest {
 			catch (NameException e) {
 				fail("Where is my exception?");
 			}
-			
+		}
 			@Test 
 			public void constructorOrderTest() {
 				try {
